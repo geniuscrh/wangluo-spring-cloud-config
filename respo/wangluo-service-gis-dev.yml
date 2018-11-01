@@ -6,6 +6,16 @@ spring:
     encoding: UTF-8
     servlet:
       content-type: text/html
+  datasource:
+    url: jdbc:mysql://localhost/wangluo_3
+    username: root
+    password: ffffff
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
 
 server:
   port: 8501
