@@ -10,7 +10,7 @@ spring:
     url: jdbc:mysql://localhost/wangluo_v3
     username: root
     password: ffffff
-    driver-class-name: com.mysql.jdbc.Driver
+    driverClassName: com.mysql.jdbc.Driver
   jpa:
     hibernate:
       ddl-auto: update
