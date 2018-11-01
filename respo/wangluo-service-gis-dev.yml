@@ -7,7 +7,7 @@ spring:
     servlet:
       content-type: text/html
   datasource:
-    url: jdbc:mysql://localhost/wangluo_3
+    url: jdbc:mysql://localhost/wangluo_v3
     username: root
     password: ffffff
     driver-class-name: com.mysql.jdbc.Driver
