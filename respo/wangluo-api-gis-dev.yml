@@ -8,5 +8,5 @@ spring:
       content-type: text/html
 
 server:
-  port: 8602
+  port: 8601
 
