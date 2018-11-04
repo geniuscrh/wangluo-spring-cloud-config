@@ -2,11 +2,11 @@ spring:
   application:
     name: wangluo-api-gis
   thymeleaf:
-    cache: true
+    cache: false
     encoding: UTF-8
     servlet:
       content-type: text/html
 
 server:
-  port: 8601
+  port: 8602
 
