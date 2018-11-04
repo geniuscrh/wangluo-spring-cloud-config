@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: wangluo-api-gis
+  thymeleaf:
+    cache: false
+    encoding: UTF-8
+    servlet:
+      content-type: text/html
+
+server:
+  port: 8601
+
