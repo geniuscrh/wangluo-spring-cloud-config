@@ -15,3 +15,11 @@ spring:
 server:
   port: 8501
 
+
+#自定义路径
+chr:
+ wangluo:
+  tempFilePath: /temp/
+  tempFilePath_static: D:/temp_files/
+  log_static: D:/temp_files/log.txt
+
