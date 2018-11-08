@@ -13,7 +13,7 @@ spring:
 
 
 server:
-  port: 8501
+  port: 8551
 
 
 #自定义路径
