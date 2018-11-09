@@ -7,9 +7,9 @@ server:
 
 zuul:
   routes:
-    api-a:
-      path: /api/login/**
-      serviceId: spring-cloud-web-feign
-    api-b:
-      path: /api/b/**
-      serviceId: hello-spring-cloud-web-admin-feign
+    sso:
+     path: /sso/**
+     serviceId: wangluo-service-sso
+    gis:
+     path: /gis/**
+     serviceId: wangluo-api-gis
