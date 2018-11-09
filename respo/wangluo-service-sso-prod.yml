@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: wangluo-service-sso
+  datasource:
+    url: jdbc:mysql://localhost/wangluo_v3
+    username: root
+    password: ffffff
+    driverClassName: com.mysql.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+
+server:
+  port: 8531
+
+

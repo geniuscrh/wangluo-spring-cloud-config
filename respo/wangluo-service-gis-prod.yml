@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: wangluo-service-gis
+  datasource:
+    url: jdbc:mysql://localhost/wangluo_v3
+    username: root
+    password: ffffff
+    driverClassName: com.mysql.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+
+server:
+  port: 8551
+
+
+#自定义路径
+crh:
+ wangluo:
+  tempFilePath: /temp/
+  tempFilePath_static: D:/temp_files/
+  log_static: D:/temp_files/log.txt
+
