@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: spring-cloud-zuul
+
+server:
+  port: 8201
+
+zuul:
+  routes:
+    api-a:
+      path: /api/login/**
+      serviceId: spring-cloud-web-feign
+    api-b:
+      path: /api/b/**
+      serviceId: hello-spring-cloud-web-admin-feign

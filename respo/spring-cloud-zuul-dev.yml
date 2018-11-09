@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: spring-cloud-zuul
+
+server:
+  port: 8201
+
+zuul:
+  routes:
+    sso:
+     path: /sso/**
+     serviceId: wangluo-service-sso
+    gis:
+     path: /gis/**
+     serviceId: wangluo-api-gis
