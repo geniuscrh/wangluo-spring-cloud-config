@@ -13,7 +13,6 @@ zuul:
     gis:
      path: /gis/**
      serviceId: wangluo-api-gis
-    test:
-     path: /test/**
      url: http://192.168.0.2:8531/
+
 
