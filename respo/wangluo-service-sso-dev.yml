@@ -2,7 +2,7 @@ spring:
   application:
     name: wangluo-service-sso
   datasource:
-    url: jdbc:mysql://localhost/wangluo_v3
+    url: jdbc:mysql://112.5.160.222/wangluo_v3
     username: root
     password: ffffff
     driverClassName: com.mysql.jdbc.Driver
