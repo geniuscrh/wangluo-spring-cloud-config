@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost/wangluo_v3
+    username: root
+    password: ffffff
+    driverClassName: com.mysql.jdbc.Driver
+
+
