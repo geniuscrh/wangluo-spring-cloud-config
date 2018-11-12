@@ -1,17 +1,6 @@
 spring:
   application:
     name: wangluo-service-redis
-  redis:
-   database: 0
-   host: 112.5.160.222
-   port: 6379
-   password: ffffff
-   pool:
-      max-active: 8
-      max-idle: 8
-      max-wait: -1ms
-      min-idle: 0
-
 
 server:
   port: 8501

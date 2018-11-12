@@ -6,6 +6,7 @@ server:
   port: 8201
 
 zuul:
+  ignoredServices: '*' #忽略所有未配置的service
   routes:
     sso:
       path: /sso/**
