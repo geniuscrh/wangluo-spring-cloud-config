@@ -8,7 +8,7 @@ spring:
       content-type: text/html
 
 server:
-  port: 8601
+  port: 8611
 
 ribbon:
   ConnectTimeout: 60000
