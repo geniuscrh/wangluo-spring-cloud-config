@@ -9,7 +9,7 @@ zuul:
   routes:
     sso:
      path: /sso/**
-     url: http://192.168.0.2:8531/
+     #url: http://192.168.0.2:8531/
      serviceId: wangluo-service-sso
     gis:
      path: /gis/**
