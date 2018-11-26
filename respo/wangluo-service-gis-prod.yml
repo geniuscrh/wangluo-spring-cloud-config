@@ -1,6 +1,11 @@
 spring:
   application:
     name: wangluo-service-gis
+  thymeleaf:
+    cache: false
+    encoding: UTF-8
+    servlet:
+      content-type: text/html
   datasource:
     url: jdbc:mysql://localhost/wangluo_v3
     username: root
