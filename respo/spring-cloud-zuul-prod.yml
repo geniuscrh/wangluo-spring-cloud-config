@@ -15,9 +15,6 @@ zuul:
       sensitiveHeaders: "*"
     gis:
       path: /gis/**
-      serviceId: wangluo-api-gis
+      serviceId: wangluo-service-gis
       sensitiveHeaders: "*"
-    admin:
-      path: /admin/**
-      serviceId: wangluo-service-admin
-      sensitiveHeaders: "*"
+
