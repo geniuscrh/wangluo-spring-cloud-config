@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: wangluo-service-site
+  thymeleaf:
+    cache: false
+    encoding: UTF-8
+    servlet:
+      content-type: text/html
+
+server:
+  port: 8561
+
+
+#自定义路径
+crh:
+ wangluo:
+  tempFilePath: /temp/
+  tempFilePath_static: D:/temp_files/
+  log_static: D:/temp_files/log.txt
+
