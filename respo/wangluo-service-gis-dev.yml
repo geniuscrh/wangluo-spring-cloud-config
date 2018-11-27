@@ -16,6 +16,8 @@ spring:
       ddl-auto: update
     show-sql: true
 
+co
+
 
 server:
   port: 8551

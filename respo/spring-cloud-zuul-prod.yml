@@ -6,6 +6,9 @@ server:
   port: 8201
 
 zuul:
+  host:
+    socket-timeout-millis: 10000
+    connect-timeout-millis: 2000
   ignoredServices: '*' #忽略所有未配置的service
   routes:
     sso:
