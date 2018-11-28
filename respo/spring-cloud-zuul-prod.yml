@@ -36,3 +36,7 @@ zuul:
       serviceId: wangluo-service-gis
       sensitiveHeaders: "*"
 
+    site:
+      path: /site/**
+      serviceId: wangluo-service-site
+      sensitiveHeaders: "*"
