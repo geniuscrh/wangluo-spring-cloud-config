@@ -14,7 +14,7 @@ server:
 #自定义路径
 crh:
  wangluo:
-  tempFilePath: /temp/
+  tempFilePath: /gis/temp/
   tempFilePath_static: D:/temp_files/
   log_static: D:/temp_files/log.txt
 
