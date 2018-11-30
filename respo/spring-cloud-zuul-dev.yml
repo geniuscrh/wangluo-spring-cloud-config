@@ -27,6 +27,11 @@ zuul:
     connect-timeout-millis: 60000
   ignoredServices: '*' #忽略所有未配置的service
   routes:
+    index:
+      path: /**
+      #url: http://192.168.0.2:8531/
+      serviceId: wangluo-service-sso
+      sensitiveHeaders: "*"
     sso:
       path: /sso/**
       #url: http://192.168.0.2:8531/
