@@ -30,12 +30,12 @@ zuul:
     index:
       path: /**
       #url: http://192.168.0.2:8531/
-      serviceId: wangluo-service-sso
+      serviceId: wangluo-service-admin
       sensitiveHeaders: "*"
     sso:
       path: /sso/**
       #url: http://192.168.0.2:8531/
-      serviceId: wangluo-service-sso
+      serviceId: wangluo-service-admin
       sensitiveHeaders: "*"
     gis:
       path: /gis/**
