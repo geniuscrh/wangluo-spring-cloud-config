@@ -43,3 +43,8 @@ zuul:
       path: /site/**
       serviceId: wangluo-service-site
       sensitiveHeaders: "*"
+
+    gupiao:
+      path: /gupiao/**
+      serviceId: wangluo-service-gupiao
+      sensitiveHeaders: "*"
